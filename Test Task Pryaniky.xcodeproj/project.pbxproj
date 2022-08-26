@@ -13,6 +13,14 @@
 		74BB05B528B8A1F100675D32 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74BB05B328B8A1F100675D32 /* Main.storyboard */; };
 		74BB05B728B8A1F300675D32 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74BB05B628B8A1F300675D32 /* Assets.xcassets */; };
 		74BB05BA28B8A1F300675D32 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74BB05B828B8A1F300675D32 /* LaunchScreen.storyboard */; };
+		74BB05C528B8B41600675D32 /* pictureCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74BB05C328B8B41600675D32 /* pictureCell.swift */; };
+		74BB05C628B8B41600675D32 /* pictureCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 74BB05C428B8B41600675D32 /* pictureCell.xib */; };
+		74BB05C928B8B43200675D32 /* selectorCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74BB05C728B8B43100675D32 /* selectorCell.swift */; };
+		74BB05CA28B8B43200675D32 /* selectorCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 74BB05C828B8B43200675D32 /* selectorCell.xib */; };
+		74BB05CD28B8B44400675D32 /* textCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74BB05CB28B8B44400675D32 /* textCell.swift */; };
+		74BB05CE28B8B44400675D32 /* textCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 74BB05CC28B8B44400675D32 /* textCell.xib */; };
+		74BB05D528B90E1C00675D32 /* SelectorElementCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74BB05D328B90E1C00675D32 /* SelectorElementCell.swift */; };
+		74BB05D628B90E1C00675D32 /* SelectorElementCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 74BB05D428B90E1C00675D32 /* SelectorElementCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +32,14 @@
 		74BB05B628B8A1F300675D32 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		74BB05B928B8A1F300675D32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		74BB05BB28B8A1F300675D32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74BB05C328B8B41600675D32 /* pictureCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pictureCell.swift; sourceTree = "<group>"; };
+		74BB05C428B8B41600675D32 /* pictureCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = pictureCell.xib; path = "Test Task Pryaniky/pictureCell.xib"; sourceTree = SOURCE_ROOT; };
+		74BB05C728B8B43100675D32 /* selectorCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = selectorCell.swift; sourceTree = "<group>"; };
+		74BB05C828B8B43200675D32 /* selectorCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = selectorCell.xib; path = "Test Task Pryaniky/selectorCell.xib"; sourceTree = SOURCE_ROOT; };
+		74BB05CB28B8B44400675D32 /* textCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = textCell.swift; sourceTree = "<group>"; };
+		74BB05CC28B8B44400675D32 /* textCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = textCell.xib; path = "Test Task Pryaniky/textCell.xib"; sourceTree = SOURCE_ROOT; };
+		74BB05D328B90E1C00675D32 /* SelectorElementCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectorElementCell.swift; sourceTree = "<group>"; };
+		74BB05D428B90E1C00675D32 /* SelectorElementCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SelectorElementCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +79,14 @@
 				74BB05B628B8A1F300675D32 /* Assets.xcassets */,
 				74BB05B828B8A1F300675D32 /* LaunchScreen.storyboard */,
 				74BB05BB28B8A1F300675D32 /* Info.plist */,
+				74BB05C328B8B41600675D32 /* pictureCell.swift */,
+				74BB05C428B8B41600675D32 /* pictureCell.xib */,
+				74BB05C728B8B43100675D32 /* selectorCell.swift */,
+				74BB05C828B8B43200675D32 /* selectorCell.xib */,
+				74BB05CB28B8B44400675D32 /* textCell.swift */,
+				74BB05CC28B8B44400675D32 /* textCell.xib */,
+				74BB05D328B90E1C00675D32 /* SelectorElementCell.swift */,
+				74BB05D428B90E1C00675D32 /* SelectorElementCell.xib */,
 			);
 			path = "Test Task Pryaniky";
 			sourceTree = "<group>";
@@ -125,8 +149,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74BB05C628B8B41600675D32 /* pictureCell.xib in Resources */,
+				74BB05D628B90E1C00675D32 /* SelectorElementCell.xib in Resources */,
 				74BB05BA28B8A1F300675D32 /* LaunchScreen.storyboard in Resources */,
 				74BB05B728B8A1F300675D32 /* Assets.xcassets in Resources */,
+				74BB05CA28B8B43200675D32 /* selectorCell.xib in Resources */,
+				74BB05CE28B8B44400675D32 /* textCell.xib in Resources */,
 				74BB05B528B8A1F100675D32 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,9 +166,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74BB05CD28B8B44400675D32 /* textCell.swift in Sources */,
+				74BB05C528B8B41600675D32 /* pictureCell.swift in Sources */,
 				74BB05B228B8A1F100675D32 /* ViewController.swift in Sources */,
+				74BB05D528B90E1C00675D32 /* SelectorElementCell.swift in Sources */,
 				74BB05AE28B8A1F100675D32 /* AppDelegate.swift in Sources */,
 				74BB05B028B8A1F100675D32 /* SceneDelegate.swift in Sources */,
+				74BB05C928B8B43200675D32 /* selectorCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
